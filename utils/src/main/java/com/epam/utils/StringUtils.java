@@ -11,7 +11,9 @@ public class StringUtils {
             return NumberUtils.toDouble(str) > 0.0;
         }
         catch (Exception e){
-            return true;
+            return false;
+
+
         }
     }
 }
